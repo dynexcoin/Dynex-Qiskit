@@ -8,7 +8,7 @@ The Dynex Qiskit Package allows to execute IBM Qiskit programs and circuits on t
 
 # Guides
 
-- [Computing on the Dynex Neuromorphic Platform: IBM Qiskit 4-Qubit Full Adder Circuit](https://github.com/dynexcoin/Dynex-Qiskit/blob/main/Medium_IBM_Qiskit.ipynb)
+- [Medium: Computing on the Dynex Neuromorphic Platform: IBM Qiskit 4-Qubit Full Adder Circuit](https://github.com/dynexcoin/Dynex-Qiskit/blob/main/Medium_IBM_Qiskit.ipynb)
 
 # Requirements
 
