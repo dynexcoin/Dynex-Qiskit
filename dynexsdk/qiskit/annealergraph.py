@@ -54,7 +54,9 @@ class annealer_graph():
         self.dontuse = list()
         self.skipgates = list()
 
-        print("\n=====================================\nQiskit on Dynex Neuromorphic Platform\n=====================================\n")
+        print("=========================================\nIBM Qiskit on Dynex Neuromorphic Platform\n=========================================")
+        print('[DYNEX] Dynex SDK version:',dynex.__version__);
+        print("[DYNEX] Annealer Graph initialised");
 
     def generatefulledgelist(self):
         fulledgelist = list()
