@@ -6,6 +6,10 @@ Hamiltonian with a single degree of freedom, which is why it is believed to only
 
 The Dynex Qiskit Package allows to execute IBM Qiskit programs and circuits on the Dynex Neuromorphic platform. Thanks to groundbreaking research from [Richard H. Warren](https://arxiv.org/pdf/1405.2354.pdf), it is possible to directly translate Qiskit quantum circuits into Dynex Neuromorphic chips. The concept behind is a direct translation of Qiskit objects, but instead of running on IBM Q, the circuits are executed on the Dynex platform.
 
+# Guides
+
+- [Computing on the Dynex Neuromorphic Platform: IBM Qiskit 4-Qubit Full Adder Circuit](https://github.com/dynexcoin/Dynex-Qiskit/blob/main/Medium_IBM_Qiskit.ipynb)
+
 # Requirements
 
 The following packages are requried to use the Dynex Qiskit Package:
