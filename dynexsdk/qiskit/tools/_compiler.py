@@ -55,7 +55,7 @@ def execute(circuit, backend = None,
             config=None, basis_gates=None, coupling_map=None, initial_layout=None,
             shots=1024, max_credits=10, seed=None, qobj_id=None, hpc=None,
             skip_transpiler=False, seed_mapper=None,
-            sampler = 'sa', num_reads = 5000, annealing_time = 300, mainnet=False, logging=False, 
+            sampler = 'sa', num_reads = 5000, annealing_time = 300, clones=1, mainnet=False, logging=False, 
             constrain_measured_qubits=True, constraint_strength = 10):
 
     outputs = list()
@@ -140,7 +140,7 @@ def execute(circuit, backend = None,
         	print("[DYNEX] Running Qiskit Circuit on the Dynex Neuromorphic Platform...")
         	model = dynex.BQM(bqm, logging=logging);
         	sampler = dynex.DynexSampler(model,  mainnet=mainnet, description='IBM Qiskit', logging=logging);
-        	response = sampler.sample(num_reads=num_reads, annealing_time = annealing_time, debugging=False);
+        	response = sampler.sample(num_reads=num_reads, annealing_time = annealing_time, clones = clones, debugging=False);
         else:        
         	print("[DYNEX] Running Qiskit Circuit with Simulated Annealing Sampler...")
         	sampler = SimulatedAnnealingSampler()
